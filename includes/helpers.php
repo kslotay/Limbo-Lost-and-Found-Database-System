@@ -631,7 +631,7 @@ function show_footer(){
 										<li>
 											<h3>E-Mail</h3>
 											<p><a href="mailto:kulvinder.lotay1@marist.edu">kulvinder.lotay1@marist.edu</a></p>
-											<p><a href="mailto:artur.barbosa1@marist.edu">artur.barbosa@marist.edu</a></p>
+											<p><a href="mailto:artur.barbosa1@marist.edu">artur.barbosa1@marist.edu</a></p>
 										</li>
 										<li>
 											<h3>Phone</h3>

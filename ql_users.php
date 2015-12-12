@@ -50,7 +50,8 @@ By Kulvinder Lotay and Artur Barbosa
 			check_results($results);
 
 			if($results){
-				 echo '<p><strong>Successfully updated.</strong></p></div></div>';
+				 echo '<p><strong>Successfully updated.</strong></p>
+				 			 <a href="admins.php"><<< Go Back</a></div></div>';
 			}
 		}
 
@@ -65,11 +66,13 @@ By Kulvinder Lotay and Artur Barbosa
 				check_results($results);
 
 				if($results){
-					 echo '<p><strong>Successfully deleted.</strong></p></div></div>';
+					 echo '<p><strong>Successfully deleted.</strong></p>
+					 			 <a href="admins.php"><<< Go Back</a></div></div>';
 				}
 			}
 			else{
-					echo '<p><strong>Cannot delete admin !</strong></p></div></div>';
+					echo '<p><strong>Cannot delete admin !</strong></p>
+								<a href="admins.php"><<< Go Back</a></div></div>';
 			}
 		}
 	}

@@ -46,7 +46,7 @@ By Kulvinder Lotay and Artur Barbosa
 				check_results($results);
 
 				# Validate email and message
-				if (!valid_name($email)){
+				if (!valid_name($from)){
 					$errors[] = 'Email';
 				}
 
@@ -97,7 +97,8 @@ By Kulvinder Lotay and Artur Barbosa
 			check_results($results);
 
 			if($results){
-				echo '<p><strong>Successfully updated.</strong></p></div></div>';
+				echo '<p><strong>Successfully updated.</strong></p>
+							<a href="admins.php"><<< Go Back</a></div></div>';
 			}
 		}
 
@@ -136,7 +137,8 @@ By Kulvinder Lotay and Artur Barbosa
 			check_results($results);
 
 			if($results){
-				 echo '<p><strong>Successfully deleted.</strong></p></div></div>';
+				 echo '<p><strong>Successfully deleted.</strong></p>
+				 			 <a href="admins.php"><<< Go Back</a></div></div>';
 			}
 		}
 	}
